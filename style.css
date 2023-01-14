@@ -14,50 +14,136 @@
         margin-left: 0;
         margin-top: 10px;
     }
+    
+
 }
 
 
-*{
-    padding :0;
-    margin :0;
+
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: #f28b8e;
+    color: rgb(27, 27, 112);
 }
 
-.education {
-    margin: 10px 0;
+/* icon */
+.fa-solid {
+    font-size: 70px;
 }
-  
+
+.icon {
+    text-align: center;
+    
+}
+
+
+
+
+/* common */
+.twenty {
+    width: 20vw;
+}
+
+.eighty {
+    width: 80vw;
+    border-bottom: 2px solid rgb(27, 27, 112);
+}
+
+/* profile */
+.profile {
+    display: flex;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+.profileinner {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid rgb(27, 27, 112);
+}
+
+.left-p {
+    margin: 20px 0;
+}
+.right-p{
+    border-left:  2px solid rgb(27, 27, 112); 
+    padding-left: 30px;
+}
+
+/* work */
+.work {
+    margin-top: 20px;
+    display: flex;
+}
+
 .year-details {
-margin: 10px 0;
-display: flex;
-align-items: center;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .year-details h5 {
-font-size: 16px;
-margin: 3px 10px;
+    font-size: 16px;
+    margin: 3px 10px;
 }
 
 .year-details div {
-margin-left: 10px;
+    margin-left: 10px;
 }
 
+
+/* skill */
+.skill{
+    display: flex;
+}
+.skillinner{
+    display: flex;
+}
+.right-skill{
+    border-left:  2px solid rgb(27, 27, 112); 
+    padding-left: 30px;
+}
+.li{
+    display: flex;
+    justify-content: space-between;
+}
+.li p{
+    margin-right: 50px;
+}
+.left{
+    margin: 30px 0;
+}
+.inner_circle{
+    width : 200px;
+    height : 30px;
+    /* border : 2px solid black; */
+}
+.circle{
+    width : 20px;
+    height : 20px;
+    background-color: darkblue;
+    border-radius: 50%;
+    display: inline-block;
+    /* border: 2px solid black; */
+}
+
+/* Interest-section */
 .interest{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
 }
-.imagedetail{
+.interestinner{
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin: 10px 0s;
+    margin : 40px 0;
 }
-img{
-    width : 100px;
-    height : 100px;
-    border-radius: 50%;
+
+
+/* Education-section */
+.education{
+    display: flex;
 }
